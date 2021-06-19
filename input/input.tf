@@ -13,7 +13,7 @@ output "D" {
   value = var.D
 }
 //2.to pass as argument
-//terraform -auto-approve -var abc1=data
+//terraform apply -auto-approve -var abc1=data
 variable "abc1" {}
 output "abc1" {
   value = var.abc1
